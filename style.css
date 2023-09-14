@@ -1,0 +1,96 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fdfdfd;
+    }
+        
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #045959;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 50px;
+        color: #0a036b;
+    }
+
+    #guess-input {
+        display: block;
+        margin: 0 auto 20px;
+        padding: 10px;
+        font-size: 18px;
+        width: 250px;
+        border: 1px solid #ccc;
+    }
+        
+    #guess-button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #0CBABA;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+    }
+        
+    button:active {
+        transform: scale(0.95);
+    }
+        
+    .letter {
+        border: 1px solid black;
+        padding: 3px;
+        margin: 3px;
+        min-width: 20px;
+        text-align: center;
+        display: inline-block
+    }
+        
+    .row{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+        
+    .input-area{
+        margin: 30px;
+    }
+
+    #intentos-restantes {
+        position:absolute;
+        top: 200px;
+        left: 20px;
+        color: rgb(25, 60, 82);
+    }
+    #indicaciones {
+        color: rgb(120, 91, 91);
+        position: fixed;
+        bottom: 7px;
+        left: 6px;
+        background-color: #d0e3ee;
+        border: 1px solid #b0dce4;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 150px;
+    }
+    
+    #indicaciones ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    #indicaciones li {
+        margin-bottom: 2px;
+        font-size: 14px;
+    }
+    #contenedor {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 20px;
+    }
+    .image-container {
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
+    }

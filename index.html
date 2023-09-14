@@ -1,0 +1,30 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Wordle PPY</title>
+            <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Wordle PPY</h1>
+        <input type="text" id="guess-input">
+        <button id="guess-button">Intentar</button>
+        <div id="grid"></div>
+        <p id="guesses"></p>
+        <div id="intentos-restantes">Intentos restantes: 6</div>
+        <div id="indicaciones">
+            <ul>
+                <li>Debe ingresar solamente palabras de 5 letras y no debe tener numeros</li>
+                <li>Si usted ingresa números o una cantidad de letras que no se indicó saldrá ventanas indicando que hizo mal</li>
+                
+            </ul>
+        </div>
+        <div id="contenedor">
+            <img id="imagen-ganar" style="display:none;" src="images1.png" alt="Ganaste">
+            <img id="imagen-perder" style="display:none;" src="images2.png" alt="Perdiste">
+        </div>
+        
+
+        
+    </body>
+    </html>
